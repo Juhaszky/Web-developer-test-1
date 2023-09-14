@@ -25,7 +25,6 @@ function generateData() {
     }
     categories.push(new Category(i, products));
   }
-  console.log(categories);
 }
 
 function createCategories() {

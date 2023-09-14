@@ -17,7 +17,6 @@ export function createCategoryElement(id, clickHandler, scrollHandler) {
 }
 
 export function createProductElement(product) {
-    console.log(product.name);
   const productEl = document.createElement("li");
   const productImg = document.createElement("div");
   productImg.classList.add("list-element-img");
